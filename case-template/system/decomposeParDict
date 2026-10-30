@@ -1,0 +1,11 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      decomposeParDict;
+}
+
+// Used only by the finest mesh (scripts/run_all.sh runs it on 8 processes).
+numberOfSubdomains 8;
+method          scotch;

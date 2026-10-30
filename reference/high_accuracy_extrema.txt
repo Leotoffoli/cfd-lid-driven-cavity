@@ -1,0 +1,8 @@
+# High-accuracy reference values of the centerline velocity extrema.
+# Re = 1000: Botella, O. & Peyret, R. (1998), "Benchmark spectral results on the lid-driven cavity flow",
+#            Computers & Fluids 27(4), 421-433.
+# Re = 100:  reference values used by the same test suite (source of the Re = 100 values not stated there).
+# Values copied from https://github.com/bsanderse/INS2D/blob/master/testsuite/LDC/LDC_pp.m (retrieved 2026-10-30).
+# Re   u_min        v_max       v_min
+100   -0.2140424   0.1795728  -0.2538030
+1000  -0.3885698   0.3769447  -0.5270771

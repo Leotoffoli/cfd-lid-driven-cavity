@@ -1,0 +1,10 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      transportProperties;
+}
+
+// Re = U L / nu with U = 1 m/s and L = 1 m. __NU__ is replaced by scripts/run_all.sh.
+nu              [0 2 -1 0 0 0 0] __NU__;
